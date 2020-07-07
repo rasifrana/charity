@@ -12,6 +12,9 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   overflow-x: hidden !important;
@@ -922,6 +925,10 @@ h3 {
     font-size: 25px;
     line-height: 36px;
   }
+
+  .navbar-brand {
+    margin-left: 20% !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -994,7 +1001,7 @@ h3 {
   float: right;
   margin-top: 0;
   padding: 0;
-  width: 95%;
+  width: 100%;
   padding: 0;
   border-radius: 0px;
   margin-top: 5px;
@@ -1008,12 +1015,12 @@ h3 {
 /* line 28, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #009dff;
+  color: #010a0f;
 }
 
 /* line 32, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #009dff;
+  color: #000407;
 }
 
 @media (max-width: 767px) {
@@ -1032,13 +1039,13 @@ h3 {
 
 /* line 44, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn {
-  background-color: transparent;
+  /* background-color: transparent; */
   cursor: pointer;
   margin-bottom: 10px;
   margin-top: -40px;
   position: relative;
   z-index: 99;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(7, 0, 0);
   top: 3px;
   right: 5px;
   top: -36px;
@@ -1048,10 +1055,12 @@ h3 {
 .slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
   margin-right: 6px;
   margin-top: 3px;
+  color: #000 !important;
   position: relative;
   padding-bottom: 3px;
   top: -11px;
   right: -5px;
+  z-index: 100000;
 }
 
 @media (max-width: 767px) {
@@ -1072,6 +1081,7 @@ h3 {
 /* line 78, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
+  color: #000 !important;
   cursor: pointer;
   margin-bottom: 10px;
   position: relative;
@@ -1088,6 +1098,7 @@ h3 {
 /* line 92, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
+  color: #000 !important;
   cursor: pointer;
   margin-bottom: 10px;
   position: relative;
@@ -1104,11 +1115,14 @@ h3 {
 /* line 106, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slick-nav.scss */
 .slicknav_icon-bar {
   background: #fff !important;
+  color: #000 !important;
+  z-index: 10000;
 }
 
 /* line 110, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
+  color: #000 !important;
   cursor: pointer;
   margin-bottom: 10px;
   position: relative;
