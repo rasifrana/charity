@@ -157,7 +157,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Yeseva One", cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #191d34;
 }
 
@@ -1156,7 +1156,7 @@ h3 {
   z-index: 999;
   z-index: 999;
   left: 100px;
-  top: 70px;
+
   bottom: auto;
   right: 100px;
 }
@@ -1290,6 +1290,10 @@ h3 {
   /* line 108, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu {
     display: none;
+  }
+
+  .logo {
+    margin-left: 40% !important;
   }
 }
 
@@ -6671,6 +6675,48 @@ h6 {
   color: #777;
 }
 
+.aim-col-1 {
+  min-height: 400px;
+  padding: 0;
+  background: url("https://images.unsplash.com/photo-1527784011719-3349bf049cf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aim-col-2 {
+  min-height: 400px;
+  padding: 0;
+  background: url("https://images.unsplash.com/photo-1582133925315-694371d92da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aim-col-3 {
+  min-height: 400px;
+  padding: 0;
+  background: url("https://images.unsplash.com/photo-1576323921250-4c11e4389aec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2200&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aim-col-4 {
+  min-height: 400px;
+  padding: 0;
+  background: url("https://images.unsplash.com/photo-1516055619834-586f8c75d1de?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aim-inner {
+  padding: 0 !important;
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 243, 245, 0.8);
+}
 /*============ End Blog Single Styles  =============*/
 /**************** blog part css start ****************/
 /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog_part.scss */
