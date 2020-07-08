@@ -925,10 +925,6 @@ h3 {
     font-size: 25px;
     line-height: 36px;
   }
-
-  .navbar-brand {
-    margin-left: 20% !important;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
